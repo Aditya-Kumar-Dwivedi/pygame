@@ -21,7 +21,7 @@ class SNAKE:
         self.body_vertical = pygame.image.load("body_vertical.png").convert_alpha()
         self.body_horizontal = pygame.image.load("body_horizontal.png").convert_alpha()
 
-        self.body_tr = pygame.image.load("body_tr.png").convert_alpha()
+        self.body_tr = pygame.image.load("./img/body_tr.png").convert_alpha()
         self.body_tl = pygame.image.load("body_tl.png").convert_alpha()
         self.body_br = pygame.image.load("body_br.png").convert_alpha()
         self.body_bl = pygame.image.load("body_bl.png").convert_alpha()
@@ -222,7 +222,7 @@ cell_size = 40
 cell_number = 20
 screen = pygame.display.set_mode((cell_number * cell_size, cell_number * cell_size))
 clock = pygame.time.Clock()
-apple = pygame.image.load("apple.png").convert_alpha()
+apple = pygame.image.load("./img/apple.png").convert_alpha()
 game_font=pygame.font.Font('font.ttf',30)
 SCREEN_UPDATE = pygame.USEREVENT
 pygame.time.set_timer(SCREEN_UPDATE, 150)
