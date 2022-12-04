@@ -10,6 +10,6 @@ It is a Fruit and Snake game implemented using pygame and some python librbaries
 * Open the code in your ide and type in the regular run command.
 
 # Just a glimpse
-<h2></h2>
+<br>
 
 ![1](https://github.com/Aditya-Kumar-Dwivedi/pygame/blob/master/Screenshot%20(95).png)
